@@ -1,3 +1,4 @@
+/*
 const nota = "nota"
 const assets = [
   "/",
@@ -42,3 +43,4 @@ self.addEventListener("fetch", fetchEvent => {
     })
   )
 })
+*/
