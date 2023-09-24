@@ -1,0 +1,124 @@
+@font-face {
+  src: url("fonts/Naskh.ttf");
+  font-family: "Naskh";
+}
+
+@font-face {
+  src: url("fonts/Quran.ttf");
+  font-family: "Quran";
+}
+
+@font-face {
+  src: url("fonts/NotoSansArabic.ttf");
+  font-family: "NotoSansArabic";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: #F0F1FF;
+}
+
+h1 {
+  font-family: "NotoSansArabic";
+  padding: 15px 20px;
+}
+
+body,
+input,
+button {
+  font-family: "NotoSansArabic" !important;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  grid-column: 1/4;
+  border-radius: 5px;
+  outline: none;
+}
+
+.inputs {
+  padding: 10px 15px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.add-button {
+  color: #fff;
+  background-color: #3E78FF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  grid-column: 4/5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.05s;
+}
+
+.add-button:active {
+  background-color: #164FD3;
+}
+
+li button {
+  color: rgba(246, 64, 64, 0.3);
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  background-color: transparent;
+  transition: color 0.1s;
+}
+
+li button:active {
+  color: rgba(246, 64, 64, 1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 20px 10px 20px;
+}
+
+li {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.fa-pen {
+  font-size: 12px;
+}
+
+.swal2-popup {
+  font-family: "NotoSansArabic" !important;
+}
+
+.swal2-confirm {
+  font-family: "NotoSansArabic" !important;
+  font-weight: bold !important;
+}

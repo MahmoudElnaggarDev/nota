@@ -1,0 +1,77 @@
+@font-face {
+  src: url("../fonts/Naskh.ttf");
+  font-family: "Naskh";
+}
+
+@font-face {
+  src: url("../fonts/Quran.ttf");
+  font-family: "Quran";
+}
+
+@font-face {
+  src: url("../fonts/NotoSansArabic.ttf");
+  font-family: "NotoSansArabic";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+#container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#editor {
+  width: 100%;
+  padding: 15px 20px 80px 20px;
+  font-size: 18px;
+  font-family: "Naskh";
+  outline: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#buttons {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 4px #EAEAEA;
+}
+
+button {
+  padding: 8px 10px;
+  font-size: 12px;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+ul,
+ol {
+  padding: 0 20px;
+}
+
+img {
+  width: 100%;
+}
+
+#pageHeading {
+  margin: 5px 15px;
+  font-family: "Naskh";
+  text-align: right;
+}
